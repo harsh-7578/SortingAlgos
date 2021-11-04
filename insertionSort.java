@@ -31,12 +31,14 @@ public class Main
             System.out.println("Enter Element : " + (i+1));
             arr[i]=s.nextInt();
         }
+	System.out.println("Array before sorting");
         for(int x:arr)
         {
             System.out.print(x + " ");
         }
         System.out.println();
         Sorting.insertionSort(arr);
+	System.out.println("Array After Sorting");
         for(int x:arr)
         {
             System.out.print(x + " ");

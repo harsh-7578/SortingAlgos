@@ -31,11 +31,12 @@ public class Main
             System.out.println("Enter Element : " + (i+1));
             arr[i]=s.nextInt();
         }
+	System.out.println("Array Before Sorting");
         for(int x:arr)
         {
             System.out.print(x + " ");
         }
-        System.out.println();
+        System.out.println("Array After Sorting");
         Sorting.selectionSort(arr);
         for(int x:arr)
         {
