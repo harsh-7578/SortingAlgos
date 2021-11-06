@@ -55,7 +55,7 @@ class Sorting{
       mergeSort(a,0,a.length-1);
   }
 }
-public class Main
+public class MergeSort
 {
 	public static void main(String[] args)
 	{
