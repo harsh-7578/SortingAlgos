@@ -40,7 +40,7 @@ class Sorting
         return pivotIndex;
         
     }
-    public static void QuickSort(int a[],int si,int ei)
+    public static void quickSort(int a[],int si,int ei)
     {
         if(si>=ei)
         {
